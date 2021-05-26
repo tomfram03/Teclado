@@ -28,6 +28,13 @@
     width: 30px;
     height: 160px;
   }
+
+  .teclado .oitava .branca:not(.selecionada):hover{
+    background-color: whitesmoke;
+  }
+  .teclado .oitava .preta:not(.selecionada):hover{
+    background-color: #222;
+  }
   
   [cs] {
     left: 38px;
